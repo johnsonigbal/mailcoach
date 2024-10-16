@@ -1,0 +1,6 @@
+npx create-react-app foldername --template typescript   "create project"
+
+npm start  "run project"
+
+const Header:React.FC=()=>{ return (<></>)}        "create new component with TypeScript return Function Component"
+

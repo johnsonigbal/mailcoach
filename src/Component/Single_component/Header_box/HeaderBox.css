@@ -1,0 +1,46 @@
+.Headerbox{
+    background-color: white;
+    color: black;
+    width: 600px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.Headerbox .para{
+    font-size: 23px;
+}
+
+.Headerbox .text{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:750px) {
+   .Headerbox{
+    width: 70vw;
+   } 
+
+   .Headerbox .para{
+    font-size: 1em;
+}
+
+.Headerbox .text{
+    font-size: 1.2em;
+}
+
+}
+
+@media screen and (max-width:500px) {
+    
+    .Headerbox{
+       width: 80vw;
+       } 
+
+    #navbar svg{
+        width: 120px;
+    }
+    
+   
+   
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container{
+
+    }
+    .box{
+      width: 500px;
+      border: 2px solid blue;
+      padding: 5px 10px;
+    }
+
+    h1{
+      font-size: 2em;
+    }
+
+    @media screen and (max-width: 500px){
+      .box{
+        width: 100vw;
+      }
+      h1{
+        font-size: calc(5vw);
+      }
+      p{
+        font-size: calc(3vw);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+      <div class="box">
+       <h1>checking responsive </h1>
+        <p>this is check responsive depend on browser
+          viewport if i change viewport size that can adapat size on parent 
+        </p>
+      </div>
+  </div> 
+
+</body>
+</html>
